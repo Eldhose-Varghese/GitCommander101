@@ -4,3 +4,9 @@ git config --global user.name "Username"
 git config --global user.email "email"
 explorer . -> open current directory in explorer
 notepad "file-name" -> open a notepad with a file name.
+Always use comments for commits in present tense about what the commit does.
+git init
+git add .
+git commit -m "tell what is commiting"
+git diff "filename" -> Gives difference between staged and unstaged things
+git diff --staged -> Gives the difference between staging area and commit(git repository)
