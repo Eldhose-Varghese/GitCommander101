@@ -1,0 +1,6 @@
+git config -l -> List configuration of git
+git config -l --show-origin -> List where the configurations are stored
+git config --global user.name "Username"
+git config --global user.email "email"
+explorer . -> open current directory in explorer
+notepad "file-name" -> open a notepad with a file name.
