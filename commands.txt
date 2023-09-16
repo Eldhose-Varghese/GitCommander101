@@ -18,3 +18,7 @@ git log --pretty=oneline -> provides the commit lists with their has values only
 git checkout "first 5 or 6 characters of hash value of commit" - to move to previous state
 git checkout master -> to return back to the original position
 Ignore files in the working directory -> Refer to the Image "Ignore_Files_Guide.png"
+git branch "Feature or Bug/Name" -> To create a new branch
+git checkout branch_name -> To checkout to that branch
+git merge "branch-name" -> To merge it with the master branch
+git branch -d "branch-name" -> To delete a branch
