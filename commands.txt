@@ -11,3 +11,7 @@ git commit -m "tell what is commiting"
 git diff "filename" -> Gives difference between staged and unstaged things
 git diff --staged -> Gives the difference between staging area and commit(git repository)
 git config --global core.editor notepad -> changes default commit editor to notepad
+Snapshots = Commits. This means whenever a single file is committed, Git takes note/status of the entire files in the folder.
+With every snapshot, git creates a hash value. This hash value can be used to find out the status of the files at that checkout.
+git log -> provides the commit lists with their hash values and associated datas
+git log --pretty=oneline -> provides the commit lists with their has values only.
