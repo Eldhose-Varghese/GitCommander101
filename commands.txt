@@ -34,3 +34,4 @@ When used -u with push, use only git push as the master branch is already mentio
 git clone "URL" -> To completely bring a remote repository to local repository for the first time
 git pull -> to fetch and merge the changes from remote repository to local repository
 git pull = git fetch + git merge ->You may use git fetch to review changes and then decide whether to merge
+Why fork ? -> forking a repository is needed when you cannot directly collaborate. But send the source with the commits you make and later on he can decide whether to merge those commits.
