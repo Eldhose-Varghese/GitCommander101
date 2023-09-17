@@ -23,3 +23,7 @@ git checkout branch_name -> To checkout to that branch
 git merge "branch-name" -> To merge it with the master branch
 git branch -d "branch-name" -> To delete a branch
 git log --pretty=oneline --graph -> shows a graphical representation of commits
+git remote add origin https://github.com/Eldhose-Varghese/Git_For_Beginners_Thomas_Claudius_Huber_MyProject.git -> This will create a repository named origin with url specified.
+git remote -> see all remote repositories
+git remote -v -> see all remote repositories with fetch and push commands
+git remote show origin -> see all remote repositories with fetch,push commands as well as Head.
