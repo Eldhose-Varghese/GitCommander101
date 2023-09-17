@@ -28,3 +28,4 @@ git remote add origin https://github.com/Eldhose-Varghese/Git_For_Beginners_Thom
 git remote -> see all remote repositories
 git remote -v -> see all remote repositories with fetch and push commands
 git remote show origin -> see all remote repositories with fetch,push commands as well as Head.
+git push -u origin master -> Push the local repository master to remote repository origin
