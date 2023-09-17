@@ -22,3 +22,4 @@ git branch "Feature or Bug/Name" -> To create a new branch
 git checkout branch_name -> To checkout to that branch
 git merge "branch-name" -> To merge it with the master branch
 git branch -d "branch-name" -> To delete a branch
+git log --pretty=oneline --graph -> shows a graphical representation of commits
