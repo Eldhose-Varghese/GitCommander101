@@ -9,7 +9,8 @@ Always use comments for commits in present tense about what the commit does.
 git init
 git add .
 git commit -m "tell what is commiting"
-git restore --staged "file-name" -> to unstage any changes from staging area
+git rm --cached "file-name" - to move from staging area back to untracked stage
+git restore --staged "file-name" -> to move from commit back to staging area.
 git diff "filename" -> Gives difference between staged and unstaged things
 git diff --staged -> Gives the difference between staging area and commit(git repository)
 git config --global core.editor notepad -> changes default commit editor to notepad
