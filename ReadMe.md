@@ -4,7 +4,7 @@ Welcome to the GitCommander101 repository! This repository serves as a space whe
 
 ## Contents
 
-- **CommandCheatshe.txt:** A text file containing a list of essential Git commands.
+- **Commands_cheatsheet.txt:** A text file containing a list of essential Git commands.
 - **Examples/:** A directory containing example files and repositories to practice different Git scenarios.
 - **Exercises/:** Various Git exercises to reinforce understanding.
 
@@ -15,7 +15,7 @@ To explore and use the content in this repository, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/git-playground.git
+    git clone https://github.com/Eldhose-Varghese/GitCommander101.git
     ```
 
 2. Browse through the files and directories to find exercises, examples, and the command cheatsheet.
