@@ -22,7 +22,7 @@ To explore and use the content in this repository, follow these steps:
 
 ## Git Command Cheatsheet
 
-For a quick reference to essential Git commands, you can check the [CommandCheatsheet.txt](CommandCheatsheet.txt) file in the repository. The cheatsheet includes a list of commands and their usage.
+For a quick reference to essential Git commands, you can check the [CommandCheatsheet](Commands_cheatsheet.txt) file in the repository. The cheatsheet includes a list of commands and their usage.
 
 ## Courses and Instructors
 
@@ -38,7 +38,7 @@ I would like to acknowledge the following courses and their instructors, which h
 
 3. **Git and Github by Giles McMullen**
    - [Course Link](https://learn.365datascience.com/courses/preview/git-and-github/)
-   - Bob Johnson's in-depth coverage of advanced Git concepts has been invaluable in expanding my Git proficiency.
+   - Giles McMullen's in-depth coverage of advanced Git concepts has been invaluable in expanding my Git proficiency.
 
 ## Contributing
 
@@ -52,7 +52,6 @@ I would like to express my gratitude to the Git community, the instructors of th
 
 If you have any questions or want to connect, you can reach me at:
 
-- Eldhose Varghese
 - eldhose.analyst@gmail.com
 - [Eldhose Varghese](https://www.linkedin.com/in/eldhose-varghese-323548262/)
 
