@@ -13,14 +13,21 @@ git rm --cached "file-name" - to move from staging area back to untracked stage
 git restore --staged "file-name" -> to move from commit back to staging area.
 git diff "filename" -> Gives difference between staged and unstaged things
 git diff --staged -> Gives the difference between staging area and commit(git repository)
+git diff "log version code" file-name -> provides the difference between that version and current version
 git config --global core.editor notepad -> changes default commit editor to notepad
 Snapshots = Commits. This means whenever a single file is committed, Git takes note/status of the entire files in the folder.
 With every snapshot, git creates a hash value. This hash value can be used to find out the status of the files at that checkout.
 git log -> provides the commit lists with their hash values and associated datas
+git log -1 -> provides the recent commit
 git log --pretty=oneline -> provides the commit lists with their has values only.
 git checkout "first 5 or 6 characters of hash value of commit" - to move to previous state
+git checkout HEAD~3 file-name -> moves to three commits before the current HEAD.
 git checkout master -> to return back to the original position
 Ignore files in the working directory -> Refer to the Image "Ignore_Files_Guide.png"
+git reset file-name -> to unstage changes
+git reset HEAD~1 --soft -> resets to the previous commit. Removes the wrong commit , But stays in the staging area. Soft doesn't change the file.
+git reset HEAD~1 --mixed -> resets to the previous commit. Removes the wrong commit and removes it from staging area. Mixed doesn't change the file.
+git reset HEAD~1 --hard -> resets to the previous commit. Removes the wrong commit entirely even from the file. Hard does change the file.
 git branch "Feature or Bug/Name" -> To create a new branch
 git checkout branch_name -> To checkout to that branch
 git merge "branch-name" -> To merge it with the master branch
