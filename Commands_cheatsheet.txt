@@ -5,6 +5,7 @@ git config --global user.email "email"
 explorer . -> open current directory in explorer
 dir -> shows the directory structure in 
 notepad "file-name" -> open a notepad with a file name.
+rm -r -> to delete an entire non empty folder
 Always use comments for commits in present tense about what the commit does.
 git init
 git add .
